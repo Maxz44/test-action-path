@@ -5,4 +5,5 @@ jobs:
   changepath:
     runs-on: ubuntu-latest
     steps:
-      - run: echo hi
+      - uses: actions/checkout@v4
+      - run: ./scripts/main.sh
