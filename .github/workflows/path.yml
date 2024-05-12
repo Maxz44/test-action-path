@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: ./scripts/main.sh
+      - run: main.sh
         env:
           PATH: "${{ env.PATH }}:scripts"
