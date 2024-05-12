@@ -1,0 +1,8 @@
+name: test path
+on:
+ - push
+jobs:
+  changepath:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo hi
